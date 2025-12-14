@@ -44,12 +44,18 @@
         .name {
             font-size: 16px;
             font-weight: 500;
+            max-width: 260px; /* ограничение ширины имени */
+            min-width: 240px; /* ограничение ширины имени */
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
         }
 
         .price {
-            margin-top: 4px;
             font-size: 14px;
             color: #555;
+            margin-left: 12px;
+            white-space: nowrap;
         }
 
         /* Поиск, закреплённый снизу */
@@ -119,7 +125,7 @@
         for (const item of items) {
             const tr = document.createElement('tr');
             tr.innerHTML = `
-          <td>
+          <td style="display:flex; align-items:center;">
             <div class="name">${item.name}</div>
             <div class="price">${item.price}</div>
           </td>
