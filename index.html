@@ -24,7 +24,7 @@
 
         /* Контейнер таблицы */
         .table-wrapper {
-            padding-bottom: var(--search-height);
+            height: calc(100dvh - var(--search-height));
             overflow-y: auto;
         }
 
@@ -60,7 +60,7 @@
 
         /* Поиск, закреплённый снизу */
         .search-bar {
-            position: fixed;
+            position: sticky;
             bottom: 0;
             left: 0;
             right: 0;
@@ -89,14 +89,6 @@
     </style>
 </head>
 <body>
-<h1>Flowers Prices</h1>
-
-<div class="table-wrapper">
-    <table>
-        <tbody id="tableBody"></tbody>
-    </table>
-</div>
-
 <div class="search-bar">
     <input
             id="searchInput"
@@ -105,6 +97,13 @@
             autocomplete="off"
     />
 </div>
+
+<div class="table-wrapper">
+    <table>
+        <tbody id="tableBody"></tbody>
+    </table>
+</div>
+
 
 <script>
     let allItems = [];
