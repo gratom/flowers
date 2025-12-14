@@ -1,0 +1,41 @@
+﻿[
+  { "name": "Roses Red", "price": "$2 / piece" },
+  { "name": "Roses White", "price": "$2.2 / piece" },
+  { "name": "Roses Pink", "price": "$2.1 / piece" },
+
+  { "name": "Tulips Yellow", "price": "$1.5 / piece" },
+  { "name": "Tulips Red", "price": "$1.6 / piece" },
+  { "name": "Tulips Mixed", "price": "$1.7 / piece" },
+
+  { "name": "Lilies White", "price": "$3 / piece" },
+  { "name": "Lilies Pink", "price": "$3.2 / piece" },
+
+  { "name": "Chrysanthemum White", "price": "$1.2 / piece" },
+  { "name": "Chrysanthemum Yellow", "price": "$1.3 / piece" },
+
+  { "name": "Peonies", "price": "$4.5 / piece" },
+  { "name": "Gerbera Orange", "price": "$1.8 / piece" },
+  { "name": "Gerbera Pink", "price": "$1.9 / piece" },
+
+  { "name": "Alstroemeria", "price": "$2.4 / piece" },
+  { "name": "Carnations", "price": "$0.9 / piece" },
+
+  { "name": "Sunflowers", "price": "$2.8 / piece" },
+  { "name": "Orchids", "price": "$6 / piece" },
+  { "name": "Hydrangea", "price": "$5 / piece" },
+
+  { "name": "Eucalyptus", "price": "$7 / bunch" },
+  { "name": "Gypsophila", "price": "$3 / bunch" },
+
+  { "name": "Bouquet Small", "price": "$15 / set" },
+  { "name": "Bouquet Medium", "price": "$25 / set" },
+  { "name": "Bouquet Large", "price": "$40 / set" },
+
+  { "name": "Wedding Bouquet", "price": "$80 / set" },
+  { "name": "Table Floral Arrangement", "price": "$35 / set" },
+  { "name": "Box Flowers Small", "price": "$30 / box" },
+  { "name": "Box Flowers Large", "price": "$55 / box" },
+
+  { "name": "Seasonal Mix", "price": "$20 / bunch" },
+  { "name": "Custom Order", "price": "price on request" }
+]
